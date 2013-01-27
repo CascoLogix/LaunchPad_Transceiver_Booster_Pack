@@ -1,0 +1,13 @@
+syntax: glob
+Hardware/KiCAD_Project_Files/Garbage/Transceiver.pro
+Hardware/KiCAD_Project_Files/Garbage/Transceiver.000
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevE.pro
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevE.bak
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevE-cache.lib
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevD.sch
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevD.bak
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevD-cache.lib
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevC.sch
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_RevB.sch
+Hardware/KiCAD_Project_Files/Garbage/LaunchPad_Transceiver_Rev1.pro
+Create_KiCAD_Project_Directory.cmd
