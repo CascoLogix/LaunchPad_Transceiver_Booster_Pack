@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/26/2013 11:02:37 PM
+EESchema Schematic File Version 2  date 1/28/2013 10:36:19 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,7 +53,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 jan 2013"
+Date "29 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,6 +61,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR?
+U 1 1 510751B3
+P 5300 4175
+F 0 "#PWR?" H 5300 4175 30  0001 C CNN
+F 1 "GND" H 5300 4105 30  0001 C CNN
+	1    5300 4175
+	1    0    0    -1  
+$EndComp
 Connection ~ 9525 3050
 Wire Wire Line
 	9525 3050 9825 3050

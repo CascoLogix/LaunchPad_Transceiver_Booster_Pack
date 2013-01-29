@@ -1,169 +1,154 @@
-# EESchema Netlist Version 1.1 created  1/26/2013 11:21:52 PM
+# EESchema Netlist Version 1.1 created  1/28/2013 10:37:25 PM
 (
- ( /4D3732DB CR12xx_KEYSTONE_3001_ALT B1 CR1216
-  ( 1 VCC )
-  ( 2 GND )
-  ( 3 VCC )
+ ( /5104B177 $noname  RV1 10k {Lib=POT}
+  (    1 GND )
+  (    2 N-000024 )
+  (    3 VCC )
  )
- ( /4D345A37 SM0805 C1 .01uF
-  ( 1 N-000004 )
-  ( 2 GND )
+ ( /5104B016 $noname  P7 HOPERF_RFM22 {Lib=HOPERF_RFM22}
+  (    1 /P1.1/TXD )
+  (    2 /P1.2/RXD )
+  (    3 GND )
+  (    4 VCC )
+  (    5 /GPIO_0 )
+  (    6 /GPIO_1 )
+  (    7 /GPIO_2 )
+  (    8 /P1.6/SDO )
+  (    9 /P1.7/SDI/SDA )
+  (   10 /P1.5/SCLK )
+  (   11 /CS )
+  (   12 /NIRQ )
+  (   13 /P2.5 )
+  (   14 GND )
  )
- ( /4D35AC2F LED-0805 D1 LED
-  ( 1 N-000023 )
-  ( 2 N-000008 )
+ ( /5104AFEE $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000005 )
+  (    2 GND )
  )
- ( /4D39C254 HEADER_100MIL_1R10P_PTH P1 CONN_10
-  ( 1 /CS )
-  ( 2 VCC )
-  ( 3 /P1.1/TXD )
-  ( 4 /P1.2/RXD )
-  ( 5 ? )
-  ( 6 /P1.4/A4 )
-  ( 7 /P1.5/SCLK )
-  ( 8 /GPIO_0 )
-  ( 9 /GPIO_1 )
-  ( 10 /GPIO_2 )
+ ( /5104AFA4 $noname  R1 82 {Lib=R}
+  (    1 VCC )
+  (    2 N-000020 )
  )
- ( /4D39C25A HEADER_100MIL_1R10P_PTH P2 CONN_10
-  ( 1 GND )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 /P1.7/SDI/SDA )
-  ( 7 /P1.6/SDO )
-  ( 8 /P2.5 )
-  ( 9 /NIRQ )
-  ( 10 /P2.3 )
+ ( /4D345CAD $noname  R3 10k {Lib=R}
+  (    1 VCC )
+  (    2 /P2.3 )
  )
- ( /5104AFEE CONN_2 P3 CONN_2
-  ( 1 N-000008 )
-  ( 2 GND )
+ ( /5104AB16 $noname  U3 TLP434 {Lib=TLP434}
+  (    1 GND )
+  (    2 /P1.1/TXD )
+  (    3 VCC )
+  (    4 N-000003 )
  )
- ( /4D345CC5 HEADER_100MIL_1R3P_PTH P4 CONN_3
-  ( 1 /P2.3 )
-  ( 2 N-000017 )
-  ( 3 N-000013 )
+ ( /5104AB0D $noname  U2 RLP434 {Lib=RLP434}
+  (    1 GND )
+  (    2 /P1.2/RXD )
+  (    3 ? )
+  (    4 VCC )
+  (    5 VCC )
+  (    6 GND )
+  (    7 GND )
+  (    8 N-000003 )
  )
- ( /4D5C2822 PIN_ARRAY_2X2 P5 CONN_2X2
-  ( 1 /P1.4/A4 )
-  ( 2 N-000004 )
-  ( 3 /P1.4/A4 )
-  ( 4 N-000027 )
+ ( /4D5C2822 $noname  P5 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /P1.4/A4 )
+  (    2 N-000023 )
+  (    3 /P1.4/A4 )
+  (    4 N-000024 )
  )
- ( /4D345AF7 CONN_3 P6 CONN_3
-  ( 1 VCC )
-  ( 2 N-000021 )
-  ( 3 GND )
+ ( /4D5AEC4C $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
  )
- ( /5104B016 HEADER_F_2x7_2MM P7 HOPERF_RFM22
-  ( 1 /P1.1/TXD )
-  ( 2 /P1.2/RXD )
-  ( 3 GND )
-  ( 4 VCC )
-  ( 5 /GPIO_0 )
-  ( 6 /GPIO_1 )
-  ( 7 /GPIO_2 )
-  ( 8 /P1.6/SDO )
-  ( 9 /P1.7/SDI/SDA )
-  ( 10 /P1.5/SCLK )
-  ( 11 /CS )
-  ( 12 /NIRQ )
-  ( 13 /P2.5 )
-  ( 14 GND )
+ ( /4D4C4CA5 $noname  Q1 MOSFET_N {Lib=MOSFET_N}
+  (    D N-000005 )
+  (    G N-000016 )
+  (    S GND )
  )
- ( /4D35BA63 PIN_ARRAY_4x1 P8 CONN_4
-  ( 1 VCC )
-  ( 2 /P1.5/SCLK )
-  ( 3 /P1.7/SDI/SDA )
-  ( 4 GND )
+ ( /4D4C4C9E $noname  Q2 MOSFET_N {Lib=MOSFET_N}
+  (    D N-000010 )
+  (    G N-000009 )
+  (    S GND )
  )
- ( /4D35BA68 PIN_ARRAY-6X1 P9 CONN_6
-  ( 1 VCC )
-  ( 2 /P1.5/SCLK )
-  ( 3 /P1.7/SDI/SDA )
-  ( 4 /P1.6/SDO )
-  ( 5 /CS )
-  ( 6 GND )
+ ( /4D39C25A $noname  P2 CONN_10 {Lib=CONN_10}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /P1.7/SDI/SDA )
+  (    7 /P1.6/SDO )
+  (    8 /P2.5 )
+  (    9 /NIRQ )
+  (   10 /P2.3 )
  )
- ( /4D5AEC4C PINTST P10 CONN_1
-  ( 1 N-000006 )
+ ( /4D39C254 $noname  P1 CONN_10 {Lib=CONN_10}
+  (    1 /CS )
+  (    2 VCC )
+  (    3 /P1.1/TXD )
+  (    4 /P1.2/RXD )
+  (    5 ? )
+  (    6 /P1.4/A4 )
+  (    7 /P1.5/SCLK )
+  (    8 /GPIO_0 )
+  (    9 /GPIO_1 )
+  (   10 /GPIO_2 )
  )
- ( /4D4C4CA5 SOT23GDS Q1 MOSFET_N
-  ( D N-000008 )
-  ( G N-000018 )
-  ( S GND )
+ ( /4D3732DB $noname  B1 CR1216 {Lib=BATTERY_3PIN}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
  )
- ( /4D4C4C9E SOT23GDS Q2 MOSFET_N
-  ( D N-000013 )
-  ( G N-000012 )
-  ( S GND )
+ ( /4D345AF7 $noname  P6 CONN_3 {Lib=CONN_3}
+  (    1 VCC )
+  (    2 N-000013 )
+  (    3 GND )
  )
- ( /5104AFA4 SM0805 R1 82
-  ( 1 VCC )
-  ( 2 N-000023 )
+ ( /4D35BA68 $noname  P9 CONN_6 {Lib=CONN_6}
+  (    1 VCC )
+  (    2 /P1.5/SCLK )
+  (    3 /P1.7/SDI/SDA )
+  (    4 /P1.6/SDO )
+  (    5 /CS )
+  (    6 GND )
  )
- ( /4D345CB3 SM0805 R2 10k
-  ( 1 VCC )
-  ( 2 N-000013 )
+ ( /4D35BA63 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 VCC )
+  (    2 /P1.5/SCLK )
+  (    3 /P1.7/SDI/SDA )
+  (    4 GND )
  )
- ( /4D345CAD SM0805 R3 10k
-  ( 1 VCC )
-  ( 2 /P2.3 )
+ ( /4D35AC2F $noname  D1 LED {Lib=LED}
+  (    1 N-000020 )
+  (    2 N-000005 )
  )
- ( /4D345C39 SM0805 R4 1k
-  ( 1 N-000018 )
-  ( 2 N-000017 )
+ ( /4D345CC5 $noname  P4 CONN_3 {Lib=CONN_3}
+  (    1 /P2.3 )
+  (    2 N-000015 )
+  (    3 N-000010 )
  )
- ( /4D345C8D SM0805 R6 1k
-  ( 1 N-000012 )
-  ( 2 /P2.3 )
+ ( /4D345CB3 $noname  R2 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000010 )
  )
- ( /4D345A3F SM0805 R8 1k
-  ( 1 N-000004 )
-  ( 2 N-000021 )
+ ( /4D345C8D $noname  R6 1k {Lib=R}
+  (    1 N-000009 )
+  (    2 /P2.3 )
  )
- ( /5104B177 POT63YB RV1 10k
-  ( 1 ? )
-  ( 2 N-000027 )
-  ( 3 VCC )
+ ( /4D345C39 $noname  R4 1k {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000015 )
  )
- ( /5104AB0D RLP434 U2 RLP434
-  ( 1 GND )
-  ( 2 /P1.2/RXD )
-  ( 3 ? )
-  ( 4 VCC )
-  ( 5 VCC )
-  ( 6 GND )
-  ( 7 GND )
-  ( 8 N-000006 )
+ ( /4D345A3F $noname  R8 1k {Lib=R}
+  (    1 N-000023 )
+  (    2 N-000013 )
  )
- ( /5104AB16 TLP434 U3 TLP434
-  ( 1 GND )
-  ( 2 /P1.1/TXD )
-  ( 3 VCC )
-  ( 4 N-000006 )
+ ( /4D345A37 $noname  C1 .01uF {Lib=C}
+  (    1 N-000023 )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component D1
- LED*
-$endlist
 $component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
  R?
  SM0603
  SM0805
@@ -177,7 +162,10 @@ $component R3
  R?-*
  SM1206
 $endlist
-$component R4
+$component D1
+ LED*
+$endlist
+$component R2
  R?
  SM0603
  SM0805
@@ -191,6 +179,13 @@ $component R6
  R?-*
  SM1206
 $endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R8
  R?
  SM0603
@@ -198,5 +193,129 @@ $component R8
  R?-*
  SM1206
 $endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "/P1.2/RXD" "P1.2/RXD"
+ U2 2
+ P7 2
+ P1 4
+Net 2 "VCC" "VCC"
+ R1 1
+ R3 1
+ P8 1
+ P9 1
+ U3 3
+ U2 4
+ U2 5
+ R2 1
+ P6 1
+ RV1 3
+ P7 4
+ P1 2
+ B1 1
+ B1 3
+Net 3 "" ""
+ U2 8
+ P10 1
+ U3 4
+Net 5 "" ""
+ D1 2
+ P3 1
+ Q1 D
+Net 6 "GND" "GND"
+ P6 3
+ P2 1
+ P9 6
+ U3 1
+ P8 4
+ P3 2
+ P7 14
+ Q1 S
+ B1 2
+ U2 7
+ U2 6
+ U2 1
+ C1 2
+ P7 3
+ Q2 S
+ RV1 1
+Net 7 "/GPIO_1" "GPIO_1"
+ P1 9
+ P7 6
+Net 8 "/NIRQ" "NIRQ"
+ P7 12
+ P2 9
+Net 9 "" ""
+ R6 1
+ Q2 G
+Net 10 "" ""
+ R2 2
+ P4 3
+ Q2 D
+Net 13 "" ""
+ R8 2
+ P6 2
+Net 15 "" ""
+ P4 2
+ R4 2
+Net 16 "" ""
+ R4 1
+ Q1 G
+Net 19 "/P1.7/SDI/SDA" "P1.7/SDI/SDA"
+ P2 6
+ P8 3
+ P7 9
+ P9 3
+Net 20 "" ""
+ R1 2
+ D1 1
+Net 21 "/P1.5/SCLK" "P1.5/SCLK"
+ P1 7
+ P8 2
+ P9 2
+ P7 10
+Net 22 "/P1.6/SDO" "P1.6/SDO"
+ P2 7
+ P7 8
+ P9 4
+Net 23 "" ""
+ P5 2
+ C1 1
+ R8 1
+Net 24 "" ""
+ P5 4
+ RV1 2
+Net 25 "/P2.5" "P2.5"
+ P7 13
+ P2 8
+Net 26 "/P1.1/TXD" "P1.1/TXD"
+ P7 1
+ U3 2
+ P1 3
+Net 27 "/P2.3" "P2.3"
+ P2 10
+ R3 2
+ R6 2
+ P4 1
+Net 28 "/GPIO_2" "GPIO_2"
+ P1 10
+ P7 7
+Net 29 "/GPIO_0" "GPIO_0"
+ P7 5
+ P1 8
+Net 30 "/P1.4/A4" "P1.4/A4"
+ P5 3
+ P5 1
+ P1 6
+Net 31 "/CS" "CS"
+ P7 11
+ P1 1
+ P9 5
+}
+#End
